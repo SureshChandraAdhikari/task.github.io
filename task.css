@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+    
+
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    
+}
+nav{
+ display: flex;
+width: 84%;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content: space-between;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin: 10rem 20px;
+    color: gray;
+}
+span{
+    font-size: 50px;
+    font-weight: 400;
+}
+.pic{
+    height: 271px;
+    width: 685px;
+    margin: 35px 183px;
+    /* background-image: url("puzzel.jpg"); */
+    /* background-color: black; */
+  }
+  /* .pic>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; */
+
+
+.box1{
+   
+    width: 346px;
+    height: 467px;
+    /* margin: 100px 100px 100px 100px; */
+    position: relative;
+    /* right: -68%;
+    bottom: 33%; */
+    transform: translateX(945px) translateY(-305px);
+    background-color: hsl(240, 100%, 5%);
+color: white;
+padding: 15px;
+}
+#new{
+    font-size: 35px;
+    color: hsl(35, 77%, 62%);
+}
+.box2{
+    width: 230px;
+    height: 169px;
+    position: relative;
+    /* transform: translateX(100px) translateY(100px); */
+    left: 181px;
+    top: -475px;
+    background-color: white;
+    font-size: 43px;
+    font-weight: 1000;
+    color: black;
+
+}
+.box3{
+    height: 101px;
+    width: 349px;
+    left: 534px;
+    top: -627px;
+    position: relative;
+    font-weight: 10px;
+}
+.box4{
+    left: 534px;
+top: -622px;
+position: relative;
+background-color: rgb(216, 97, 89);
+height: 32px;
+width: 140px;
+padding: 8px 15px 0px 22px;
+color: aliceblue;
+font-family: 'Viga', sans-serif;
+font-size: 13px;
+}
+.box01{
+    height: 129px;
+    width: 116px;
+    position: relative;
+    background-color: yellow;
+    /* bottom: 38%;
+    left: 11%; */
+    transform: translateX(133px) translatey(-468px);
+    
+}
+.box001{
+    height: 134px;
+    width: 194px;
+    position: relative;
+    transform: translateX(310px)translateY(-596px);
+}
+.box02{
+    height: 134px;
+    width: 194px;
+    position: relative;
+    transform:  translateX(519px)translateY(-726px);
+    
+    
+
+}
+.box02>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box002{
+    height: 134px;
+    width: 194px;
+    position: relative;
+    transform: translateX(739px)translateY(-858px);
+
+}
+.box03{
+    height: 134px;
+    width: 194px;
+    position: relative;
+    transform: translateX(918px)translateY(-989px);
+    
+
+}
+.box03>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box003{
+    height: 134px;
+    width: 194px;
+    position: relative;
+    transform: translateX(1141px)translateY(-1123px);
+}
+#1{
+    font-weight: 70;
+}
+#2{ 
+    font-weight: 70;
+
+}
+#3{
+     font-weight: 70;
+
+}
